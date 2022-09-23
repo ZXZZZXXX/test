@@ -19,7 +19,7 @@ for i in range(2005, 2020):
         .add("城镇化", list1)
         .set_global_opts(visualmap_opts=opts.VisualMapOpts(max_=100, min_=20),
                           legend_opts =opts.LegendOpts(is_show=False),
-                        title_opts=opts.TitleOpts(title="31省城镇化率"))
+                        title_opts=opts.TitleOpts(title="江苏省南京市浦口区绿化面积"))
     )
     t1.add(map_1,'{}年'.format(i))
 t1.add_schema(
